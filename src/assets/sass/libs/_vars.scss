@@ -31,18 +31,13 @@ $size: (
 // Font.
 $font: (
   family: (
-    'Monserrat',
-    Helvetica,
-    sans-serif,
+    "gilroy-light",
   ),
   family-fixed: (
-    'Monserrat',
-    monospace,
+    "gilroy-extrabold",
   ),
   family-heading: (
-    'Monserrat',
-    Helvetica,
-    sans-serif,
+    "gilroy-extrabold",
   ),
   weight: 300,
   weight-bold: 600,
@@ -56,9 +51,10 @@ $palette: (
   dark: #000,
   gray: gray,
   bg: #235374,
+  body: #f2f2f2,
   fg: #fff,
   sub: #2d9de7,
-  fg-bold: #01ffff,
+  fg-bold: #000000,
   fg-bold-hover: #31efef,
   fg-light: rgba(255, 255, 255, 0.35),
   border: #8ac58d,
@@ -67,4 +63,7 @@ $palette: (
   border2-bg: rgba(255, 255, 255, 0.075),
   accent: #3c6e95,
   accent-hover: #fff,
+  primary: #f45b55,
+  secundary: #ffbc65,
+  tertiary: #5546de,
 );
