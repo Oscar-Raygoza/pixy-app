@@ -1,21 +1,15 @@
 import React from "react";
-
 // Components
 import Layout from "../components/Layout";
 
-// Config
-import config from "../config.js";
-
-const IndexPage = () => (
+// Components
+import Navbar from "../components/Navbar";
+const Home = () => (
   <Layout>
-    <section id="home">
-      <div className="inner">
-        <div className="logo"></div>
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
-      </div>
-    </section>
+    <Navbar />
+    <h1 className="align-center">Hello Pixy App</h1>
+    <p className="align-right">Text complete</p>
   </Layout>
 );
 
-export default IndexPage;
+export default Home;

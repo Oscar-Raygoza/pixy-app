@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 /**
  * Components
@@ -9,7 +10,11 @@ import Home from "./views/Home";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <Switch>
+        <Route path="/" component={Home} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
