@@ -7,12 +7,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
  * Components
  */
 import Home from "./views/Home";
+import NotFound from "./views/404";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route component={NotFound} />
       </Switch>
     </Router>
   </React.StrictMode>,
