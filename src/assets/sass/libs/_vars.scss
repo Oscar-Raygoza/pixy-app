@@ -49,6 +49,7 @@ $font: (
 // Palette.
 $palette: (
   dark: #000,
+  light: #ffffff,
   gray: gray,
   bg: #235374,
   body: #f2f2f2,
@@ -66,4 +67,5 @@ $palette: (
   primary: #f45b55,
   secundary: #ffbc65,
   tertiary: #5546de,
+  tertiary-active: #c7bdfc,
 );
